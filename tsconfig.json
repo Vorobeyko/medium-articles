@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "outDir": "./dist",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "lib": ["es2018"]
+  },
+  "typeRoots": ["node_modules/@types"]
+}
